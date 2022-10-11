@@ -1,0 +1,22 @@
+{
+       "resource":{
+        "resourceType": "DocumentReference",
+        "id":"{{ID}}",
+        "date":"{{formatAsDateTime (now)}}",
+        "status":"current",
+        "content":
+        [
+            {
+                "attachment":
+                {
+                     "contentType":"text/plain",
+		     "data":"{{{base64Encode OBX-5 'utf8'}}}",
+                },
+            },
+        ],
+    },
+    "request":{
+        "method":"PUT",
+        "url":"DocumentReference/{{ID}}",
+    },
+},
