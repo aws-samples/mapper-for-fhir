@@ -29,7 +29,7 @@
       "aws-cn"
     ],
     "main": {
-      "awsAccount": "078163524510",
+      "awsAccount": "0123456789",
       "awsRegion": "us-west-2",
       "apiSuffix": "api/convert/hl7v2/ORU_R01.hbs",
       "apiMethod": "POST",
